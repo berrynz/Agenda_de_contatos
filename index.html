@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./imagens/agenda.png" alt="Agenda de contatos">
+                <h1>
+                    Agenda de Contatos | EBAC</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#agenda">Agenda</a>
+                        <a href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+        <section class="container" id="agenda">
+            <div class="agenda-form">
+                <div id="form">
+                    <form id="formulario">
+                        <div class="nome">   
+                            <input type="text" id="nome" placeholder="Nome completo*" required>
+                        </div>
+                        <div class="tel">
+                            <input type="tel" id="telephone" placeholder="Número*" required min="0" max="11">
+                        </div>
+                        <div class="email">
+                            <input type="e-mail" id="e-mail" placeholder="E-mail" required>
+                        </div>
+                        <button type="submit" class="botao">CADASTRAR</button>
+                    </form>
+                </div>
+                <div class="contato" >
+                    <table id="tabela" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Telefone</th>
+                                <Th>E-mail</Th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                            <td>Contatos cadastrados</td>
+                            <td id="contatos-salvos">---</td>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="contatos">
+            <div>
+                <div class="contatos-mthods">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="mailto:matheusberry16@outlook.com" title="">
+                                    <img src="./imagens/e-mail.png" alt="email">
+                                </a>
+                                <a href="https://github.com/berrynz" title="">
+                                    <img src="./imagens/github.png" alt="github">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

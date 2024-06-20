@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #fff;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    background-color: rgb(44, 47, 82);
+    padding-top: 100px;
+}
+
+header .logo{
+    font-size: 20px;
+}
+
+header{
+    margin: 39px;
+}
+
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: normal;
+    max-height: 940px;
+}
+
+header .container,
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 40px;
+    margin-right: 16px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 22px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#form{
+    background-color: rgb(46, 59, 95);
+    border-radius: 12px;
+    max-width: 250px;
+    padding: 16px;
+    margin: 0 auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+section img{
+    height: 40px;
+    margin-right: 16px;
+}
+
+section .nome,
+.tel,
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    color: #fff
+}
+
+#formulario input{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin: 16px;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+#formulario button{
+    background-color: #1c5052;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 12px;
+}
+
+.contato{
+    background-color: rgb(46, 59, 95);
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 685px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 65px auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contato th , td {
+    color: #ffffff;
+}
+
+table{
+    width: 85%;
+}
+
+table th{
+    border-bottom: 2px solid #ffffff;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.429);
+}
+
+.contatos-mthods nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 65px auto;
+}
